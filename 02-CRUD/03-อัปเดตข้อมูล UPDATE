@@ -1,0 +1,16 @@
+-- Sriworakarn College by Aj.Krit Th.
+-- Copyrighted krit.th@swkmail.com
+
+
+# SQL อัปเดตข้อมูลในตารางข้อมูล
+/*
+UPDATE ชื่อตาราง
+SET โครงสร้างข้อมูล-1 = ข้อมูล-1, โครงสร้างข้อมูล-2 = ข้อมูล-2, ...
+WHERE เงื่อนไข-1, เงื่อนไข-2, ...;
+*/
+
+-- อัปเดตข้อมูลจากตาราง cats จากแถวข้อมูลที่ id = 11
+UPDATE cats
+SET cat_name = 'แท้งค์', description = 'แมวสีน้ำตาลหน้ามู่ตู้และขี้เกียจ'
+WHERE id = 11;
+;
